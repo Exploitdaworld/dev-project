@@ -1,5 +1,5 @@
 FROM nginx:latest
-MAINTAINTER moiz.ahmed223190@gmail.com
+MAINTAINER moiz.ahmed223190@gmail.com
 RUN apt-get update && apt-get install -y nginx \
  zip\
   unzip
